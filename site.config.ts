@@ -70,7 +70,8 @@ export const siteConfig = {
     targetDate: "2026-10-24T15:00:00+05:30",
     heading: "THE COUNTDOWN BEGINS",
     footnote: "Until our forever begins",
-    thankYou: "Looking forward to your gracious prescence. See you super soon!",
+    thankYou: "Looking forward to your courteous prescence. See you super soon!",
+    familyNames: "Lakhwani Parivaar, Puruswani Parivaar, Mirchandani Parivaar, Choudhary Parivaar, Sewani Parivaar, Hariyani Parivaar & Kuldeep Parivaar"
   },
 
   /* ---------- Families ---------- */
@@ -82,7 +83,9 @@ export const siteConfig = {
     groom: {
       name: "Nayan",
       relationLabel: "S/o",
+      relationLabel1: "With Special Blessings of",
       parents: "Bhajan & Sapna Lakhwani",
+      parents1: "Mahesh & Kamya Lakhwani",
       siblingLabel: "Grandson of",
       siblings: ["Lt. Shri Tikamdas", "Lt. Shrimati Rajkumari Lakhwani"],
     },
@@ -163,7 +166,7 @@ export const siteConfig = {
     successMessage: "Thank you! Your response has been noted with love.",
     footer: "Celebrate this new chapter with us.",
     directionsLabel: "GET DIRECTIONS",
-    jmdDirectionsUrl: "https://maps.app.goo.gl/Gb13nvmXNJKVn9kt5",
+    jmdDirectionsUrl: "https://maps.app.goo.gl/KX492RCPAwDn5YcF7",
   },
 } as const;
 

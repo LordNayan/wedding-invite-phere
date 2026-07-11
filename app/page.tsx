@@ -113,6 +113,8 @@ export default function Home() {
               <span className="family-card__star">✦</span>
               <p className="family-card__rel">{c.families.groom.relationLabel}</p>
               <p className="family-card__parents">{c.families.groom.parents}</p>
+              <p className="family-card__rel">{c.families.groom.relationLabel1}</p>
+              <p className="family-card__parents">{c.families.groom.parents1}</p>
               <p className="family-card__rel">{c.families.groom.siblingLabel}</p>
               <p className="family-card__sib">{c.families.groom.siblings.join(" & ")}</p>
             </Reveal>
@@ -191,6 +193,23 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ---------------- GIFTS ---------------- */}
+      <section id="s-gifts" className="section gifts">
+        <div className="section-inner">
+          <Reveal>
+            <p className="ornament">⤙ ❦ ⤚</p>
+            <h2 className="gifts__heading script">Your Presence is Our Present</h2>
+            <div className="gifts__rule" />
+          </Reveal>
+          <Reveal delay={140}>
+            <p className="gifts__body">
+              No Gifts, only blessings!
+            </p>
+            <div className="heart" style={{ marginTop: "2rem" }}>♥</div>
+          </Reveal>
+        </div>
+      </section>
+
       {/* ---------------- RSVP ---------------- */}
       <section id="s-rsvp" className="section rsvp">
         <div className="section-bg" style={bg(c.rsvp.backgroundImage)} />
@@ -199,6 +218,8 @@ export default function Home() {
             <p className="rsvp__footer script">{c.rsvp.footer}</p>
             <div className="heart">♥</div>
             <p className="countdown__thanks">{c.countdown.thankYou}</p>
+            <div className="heart">♥</div>
+            <p className="countdown__thanks">{c.countdown.familyNames}</p>
             <div className="heart">♥</div>
             <a className="rsvp__directions" href={c.rsvp.jmdDirectionsUrl} target="_blank" rel="noopener noreferrer">
               📍 {c.rsvp.directionsLabel}
